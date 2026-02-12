@@ -1,2 +1,270 @@
-# cheltender
-Консалтинг в сфере банковских гарантий
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Банковские гарантии за один день от 1,9% годовых. Без залога и без визита в банк. Полное сопровождение тендерных и контрактных гарантий."/>
+  <title>Банковские гарантии под ключ — быстро и надёжно</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.6;
+      color: #1A1A1A;
+      background: #F5F7FA;
+    }
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header / Hero */
+    header {
+      background: linear-gradient(135deg, #003087 0%, #0047B3 100%);
+      color: white;
+      padding: 80px 0 100px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    header .lead {
+      font-size: 1.38rem;
+      max-width: 780px;
+      margin: 0 auto 40px;
+      opacity: 0.95;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: #FFB81C;
+      color: #003087;
+      font-size: 1.25rem;
+      font-weight: 600;
+      padding: 16px 48px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 12px rgba(255,184,28,0.3);
+    }
+    .btn-primary:hover {
+      background: #FFCA4D;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(255,184,28,0.4);
+    }
+
+    /* Sections */
+    section { padding: 100px 0; }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #003087;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 32px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 40px 32px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      text-align: center;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #003087;
+      margin: 24px 0 12px;
+    }
+    .card p {
+      color: #4A4A4A;
+      font-size: 1.05rem;
+    }
+
+    /* Advantages */
+    .advantages {
+      background: white;
+    }
+    .adv-list {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 1.18rem;
+    }
+    .adv-list li {
+      margin: 24px 0;
+      padding-left: 48px;
+      position: relative;
+    }
+    .adv-list li:before {
+      content: "✓";
+      color: #FFB81C;
+      position: absolute;
+      left: 0;
+      font-size: 1.6rem;
+      line-height: 1;
+      font-weight: bold;
+    }
+
+    /* Steps */
+    .steps .cards-grid { gap: 40px; }
+    .step-number {
+      width: 64px;
+      height: 64px;
+      background: #003087;
+      color: white;
+      font-size: 1.75rem;
+      font-weight: 700;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+    }
+
+    /* CTA */
+    .cta {
+      background: #003087;
+      color: white;
+      text-align: center;
+    }
+    .cta h2 { color: white; }
+
+    /* Footer */
+    footer {
+      background: #001F5F;
+      color: #C7D2E3;
+      text-align: center;
+      padding: 80px 0 40px;
+    }
+    footer a {
+      color: #89BFFF;
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 960px) {
+      header h1 { font-size: 2.6rem; }
+      header .lead { font-size: 1.25rem; }
+      h2 { font-size: 2.1rem; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Консалтинг в сфере банковских гарантий</h1>
+    <p class="lead">Банковские гарантии от 1,9% годовых без залога и без визита в банк.<br>Оформление обеспечения для государственных (44-ФЗ, 223-ФЗ) и коммерческих контрактов</p>
+    <a href="tel:+79681103542" class="btn-primary">Получить гарантию </a>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Виды обеспечения</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <h3>Обеспечение заявки</h3>
+        <p>Гарантия на участие в торгах. Обеспечивает обязательства поставщика по заключению контракта в случае победы в государственных и коммерческих торгах</p>
+      </div>
+      <div class="card">
+        <h3>Обеспечение исполнения контракта</h3>
+        <p>Обеспечивает обязательства поставщика перед заказчиком по исполнению контракта. Предоставляется победителем торгов до заключения контракта</p>
+      </div>
+      <div class="card">
+        <h3>Гарантийные обязательства</h3>
+        <p>Обеспечение на период гарантийного срока. Предоставляется до начала гарантийного срока (до приёмки работ по контракту)</p>
+      </div>
+      <div class="card">
+        <h3>Обеспечение возврата авансового платежа</h3>
+        <p>Обеспечивает возврат аванса в случае расторжения контракта. Оформляется до выплаты поставщику авансового платежа</p>
+      </div>
+      <div class="card">
+        <h3>Гарантия платежа</h3>
+        <p>Обеспечение отсрочки платежей по коммерческим контрактам и иных платежей</p>
+      </div>
+      <div class="card">
+        <h3>Гарантия в целях налогообложения</h3>
+        <p>Обеспечивает отсрочку по уплате налоговых платежей в пользу ФНС</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="advantages">
+  <div class="container">
+    <h2>Почему клиенты выбирают нас</h2>
+    <ul class="adv-list">
+      <li>Выпуск гарантии за несколько часов — большинство гарантий выпускается в день обращения</li>
+      <li>Тарифы от 1,9% годовых — подбор оптимального предложения конкретно по вашей гарантии</li>
+      <li>Минимальный пакет документов, не требуются залог или поручительство. Выпуск через ЭДО, без визита в банк</li>
+      <li>Более 30 банков-партнёров из перечня Минфина. Размещение гарантии в реестре ЕИС - в день выпуска</li>
+      <li>Оплата комиссии за выпуск гарантии - на реквизиты банка, без посредников и скрытых переплат</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Как это работает — 4 шага</h2>
+    <div class="cards-grid steps">
+      <div class="card">
+        <div class="step-number">1</div>
+        <h3>Заявка</h3>
+        <p>Звонок, WhatsApp или форма на сайте</p>
+      </div>
+      <div class="card">
+        <div class="step-number">2</div>
+        <h3>Документы</h3>
+        <p>Присылаете минимум — мы готовим и проверяем</p>
+      </div>
+      <div class="card">
+        <div class="step-number">3</div>
+        <h3>Предложения</h3>
+        <p>Получаете 2–4 лучших варианта за 1–3 часа</p>
+      </div>
+      <div class="card">
+        <div class="step-number">4</div>
+        <h3>Выдача</h3>
+        <p>Гарантия в электронном виде + оригинал при необходимости</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Нужна банковская гарантия уже сегодня?</h2>
+    <p style="font-size:1.38rem; max-width:760px; margin:0 auto 48px; opacity:0.92;">
+      Оставьте заявку — перезвоним в течение 10 минут, рассчитаем точную стоимость и сроки именно для вашего случая
+    </p>
+    <a href="tel:+74951234567" class="btn-primary" style="font-size:1.38rem; padding:20px 60px;">Заказать гарантию</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p style="font-size:1.25rem; margin-bottom:24px; color:white; font-weight:500;">Сопровождение банковских гарантий — работаем с 2018 года</p>
+    <p>Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+    <p>WhatsApp: <a href="https://wa.me/79031234567">+7 (903) 123-45-67</a></p>
+    <p>Email: <a href="mailto:info@bg-service.ru">info@bg-service.ru</a></p>
+    <p style="margin-top:48px; font-size:0.95rem;">© 2025 Все права защищены. Услуги предоставляются в соответствии с законодательством РФ.</p>
+  </div>
+</footer>
+
+</body>
+</html>
